@@ -3,14 +3,14 @@ $(function(){
 
     // YOU MUST EDIT THIS SECTION
     // You must supply a Trove API key
-    var troveAPIKey = '';
+    var troveAPIKey = '9faai6l8bhi6621l';
     // Either provide full API query here or include options below
     var apiQuery = '';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
-    var keywords = '';
+    var keywords = 'civil rights';
     // How you want to combine keywords -- all, any, or phrase
-    var keywordType = 'all'
+    var keywordType = 'phrase'
     // Limit to a particular year
     // This was added on 10 August 2017 because one of the people who
     // attended my talk to ACT teacher librarians asked if it was possible to
@@ -21,10 +21,10 @@ $(function(){
     // var titles = '840 35';
     var titles = '';
     // Add a byline, eg:
-    var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
+    var byline = 'Created by <a href="Dr Powell"></a>.'
     // var byline = '';
     // Add a tagline
-    var tagline = 'How well do you know your Australian history?';
+    var tagline = 'How well do you know your civil rights history?';
     // Leave this alone unless you're publishing on a non-https server
     var useHttps = 'true';
 
